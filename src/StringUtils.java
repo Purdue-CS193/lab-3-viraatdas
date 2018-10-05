@@ -21,6 +21,7 @@ public class StringUtils {
             res= res.substring(0);
         else
             res = res.substring(0, 8);
+        System.out.println(res);
         /* Convert the name to lower-case
             Ex: res = "SFlanner"
                     --> res = "sflanner"

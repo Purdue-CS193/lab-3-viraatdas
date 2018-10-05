@@ -36,6 +36,7 @@ public class MathUtils {
         if (isNegative) {
             double dividedRes = divideNumbers(1, res);
             return dividedRes;
+            System.out.println (dividedRes);
         }
         /* Otherwise, we are safe to just return the result */
         else {
